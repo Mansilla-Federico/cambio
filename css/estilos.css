@@ -1,0 +1,39 @@
+*{
+    background-color: rgb(71, 204, 219);
+}
+
+h1{
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: double;
+}
+
+.formulario{
+    margin: 20px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#primera{
+    width: 60px;
+    height: 20px;
+}
+
+#segunda{
+    width: 60px;
+    height: 20px;
+}
+
+#valor{
+    font-size: 20px;
+    background-color: white;
+}
+
+#cotizador{
+    font-size: 20px;
+    border-radius: 15%;
+    background-color: rgb(53, 3, 133);
+    color: white;
+}
