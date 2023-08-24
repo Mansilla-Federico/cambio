@@ -2,7 +2,20 @@
     background-color: rgb(71, 204, 219);
 }
 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
 h1{
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: double;
+}
+
+h2{
     text-align: center;
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
@@ -36,4 +49,58 @@ h1{
     border-radius: 15%;
     background-color: rgb(53, 3, 133);
     color: white;
+}
+
+#store-container {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+  
+#store-container .item {
+    border: solid 1px #ccc;
+    padding: 20px;
+}
+  
+#shopping-cart-container {
+    position: absolute;
+    right: 0;
+    width: 300px;
+    border: solid 1px #ccc;
+    padding: 10px;
+}
+  
+.show {
+    display: block;
+}
+  
+.hide {
+    display: none;
+}
+  
+.item .title {
+    font-weight: bold;
+}
+
+.item .price {
+    color: red;
+    font-weight: bold;
+    
+}
+
+.item div {
+    padding: 5px 0;
+}
+  
+.total {
+    padding: 10px 0;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+button {
+    border: none;
+    background-color: rgb(241, 149, 28);
+    padding: 5px 10px;
+    border-radius: 5px;
 }
