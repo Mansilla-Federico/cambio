@@ -98,9 +98,56 @@ h2{
     font-size: 20px;
 }
 
+#comments-container {
+    width: 380px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.comment-container {
+    border: solid 1px #91a8c2;
+    border-radius: 5px;
+    padding: 5px;
+    color: black;
+    background-color: #1e2f41;
+}
+  
+.responses-container {
+    margin-top: 5px;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.responses-container .comment-container {
+    background-color: #1e2f41;
+    color: black;
+}
+  
+.input {
+    padding: 5px 120px;
+    border: solid 1px gray;
+    border-radius: 15px;
+    margin: 5px 0;
+    background-color: white;
+}
+  
 button {
     border: none;
     background-color: rgb(241, 149, 28);
     padding: 5px 10px;
     border-radius: 5px;
+    border: none;
+    background-color: orange;
+    padding: 5px 15px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+  
+button:hover {
+    background-color: #d1641f;
+    color: black;
 }
